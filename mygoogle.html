@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google</title>
+    <style>
+        body{background-color: rgb(219, 219, 241);}
+        
+        .profile{
+            width: 100px;
+            border-radius: 10px;
+            height: 30px;
+            background-color: rgb(219, 219, 241);
+            font-weight: bold;
+
+        }
+        .sign-in{
+            text-decoration: none;
+            color:black;
+        }
+        .s-box{
+            
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding-left: 80px;
+            padding-right: 40px;
+            padding-bottom: 240px;
+            padding-top: 20px;
+        }
+        .box1:active{
+            color:green;
+            
+        }
+        .box1{
+            border-radius: 30px;
+            width:350px;
+            height:40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;}
+        i{
+            margin-right: 10px;
+        }
+        .s-btn{
+            border-radius: 5px;
+            width:60px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        h1{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 80px;
+        }
+        .sign-in:hover{
+            color:blue;
+            text-decoration: underline;
+
+        }
+        footer{
+            background: #a8575727;
+            text-decoration: none;
+        }
+        footer h4{
+            color: black;
+            font-size: 15px;
+            line-height: 39.5px;
+            font-weight: 400;
+            padding-left: 29px;
+            border: 1px solid #eee;
+        }
+        footer a{
+            color: blue;
+            display: inline-block;
+            padding: 12px 11.3px;
+            font-size: 14px;
+        }
+        footer a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        .links{
+            border-top: 1px solid #ddd;
+            display: flex;
+        }
+        .link-1{
+            padding-left: 18.7px;
+            flex: 1;
+        }
+        .link-2{
+            padding-right: 18.7px;
+        }
+        .recent:hover{
+            position: absolute;
+            right: 30px;
+            width: 200px;
+            height: 500px;
+            background-color: rgba(24, 24, 53, 0.171);
+            
+        }
+        .google{display: flex;}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="google">
+    
+<div class="side">
+    <div class="top-links">
+        <a class="sign-in" href="#">Sign In</a>
+        <label for="profile"></label>
+        <select class="profile" name="profile" id="profile">
+            <option value="1">Profile</option>
+            <option value="2">Gmail</option>
+            <option value="3">Map</option>
+            <option value="4">Meet</option>
+            <option value="4">docs</option>
+            <option value="5">Translate</option>
+        </select>
+    </div>
+    <h1>Google</h1>
+    <!-- <img src="./images.png" alt="Google"> -->
+    <div class="s-box">
+        
+
+        <input class="box1" type="text" class="s-input">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="submit" class="s-btn" value="Search">
+    </div>
+</div>
+<div class="recent">
+        <P>Recent links</P>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+    <footer>
+        <h4>NIGERIA</h4>
+            <div class="links">
+                <div class="link-1">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">About</a>
+                    <a href="#">How Search works</a>
+                </div>
+                <div class="link-2">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>
+                </div>
+            </div>
+    </footer>
+
+</body>
+</html>
